@@ -22,7 +22,7 @@ body {
 /* Header Styles */
 /* Styling for the header section */
 header {
-  background-color: #7b68ee;
+  background-color: #503dbb;
   color: #fff;
   padding: 1rem 0; /* Adding padding to the top and bottom */
 }
@@ -139,10 +139,14 @@ section {
   padding-bottom: 0.75rem;
 }
 
+.project p {
+  padding-bottom: 0.75rem;
+}
+
 /* Social Media Section Styles */
 /* Styling for the "Social Media" section */
 #socialmedia {
-  background-color: #7b68ee;
+  background-color: #503dbb;
   color: #fff;
   text-align: center;
   margin: auto;
@@ -181,17 +185,17 @@ footer {
   text-align: center;
   margin: 1rem;
   padding: 1.25rem;
-  background-color: #7b68ee;
+  background-color: #503dbb;
   color: #fff;
   border-radius: 1rem; /* Add border-radius for rounded corners */
 }
 
 /* Links Styles */
 /* Styling for links and their hover effect */
-/* a {
+a {
   color: #007bff;
   text-decoration: none;
-} */
+}
 
 /* a:hover {
   text-decoration: underline;
