@@ -11,7 +11,8 @@
       <nav>
         <ul>
           <li><a href="index.html">Home Page</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><button class="show-contact">Contact me!</button></li>
+          <!-- <li><a href="contact.html">Contact</a></li> -->
         </ul>
       </nav>
     </header>
@@ -134,5 +135,19 @@
     <footer>
       <p>&copy; 2023 Anssi Peltola. All rights reserved.</p>
     </footer>
+
+    <section id="contacthidden">
+      <div class="contact hidden">
+        <button class="close-contact">&times;</button>
+        <h1>Contact Me</h1>
+        <p>
+          You can reach me at
+          <a href="mailto:your@email.com">your@email.com</a>.
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>

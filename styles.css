@@ -190,6 +190,10 @@ footer {
   border-radius: 1rem; /* Add border-radius for rounded corners */
 }
 
+.hidden {
+  display: none;
+}
+
 /* Links Styles */
 /* Styling for links and their hover effect */
 a {
