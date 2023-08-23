@@ -82,15 +82,13 @@ section {
 }
 
 .skill {
-  width: 70%; /* Adjusted width as needed */
-  height: auto; /* Set the desired height */
-  margin: 0 auto 1.25rem; /* Adjusted margin for spacing */
+  width: 70%;
+  height: auto;
+  margin: 0 auto 1.25rem;
   padding: 1.25rem;
-  border: 1px solid #e0e0e0;
+  border: 0.2rem solid #503dbb;
   background-color: #f9f9f9;
-  border-radius: 1rem; /* Add border-radius for rounded corners */
-  border-width: 0.2rem;
-  border-color: #503dbb;
+  border-radius: 1rem;
 }
 
 .skill h2 {
@@ -117,11 +115,9 @@ section {
 .project {
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  border: 1px solid #e0e0e0;
+  border: 0.2rem solid #503dbb;
   background-color: #f9f9f9;
   border-radius: 1rem;
-  border-width: 0.2rem;
-  border-color: #503dbb;
 }
 
 .project h2 {
@@ -139,7 +135,7 @@ section {
   color: #fff;
   text-align: center;
   margin: auto;
-  width: 50%;
+  width: 15%;
   padding: 2rem;
   border-radius: 1rem;
   margin-bottom: 2rem;
@@ -172,8 +168,9 @@ section {
 /* Styling for the footer section */
 footer {
   text-align: center;
-  margin: 1rem;
+  margin: auto;
   padding: 1.25rem;
+  width: 20%;
   background-color: #503dbb;
   color: #fff;
   border-radius: 1rem;
@@ -188,12 +185,11 @@ footer {
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   padding: 0.75rem 1.5rem;
-  /* margin: 5rem 2rem; */
   /* border: none; */
   border-color: #503dbb;
   background-color: #fff;
   color: #000000;
-  border-radius: 10rem;
+  border-radius: 50%;
   height: 7rem;
   width: 7rem;
   cursor: pointer;
