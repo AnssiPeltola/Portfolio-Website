@@ -16,7 +16,8 @@ li {
 body {
   font-family: "Montserrat", sans-serif;
   color: #333;
-  background-color: #ccc;
+  background-image: linear-gradient(white, #503dbb);
+  /* background-color: #ccc; */
 }
 
 /* Header Styles */
@@ -53,6 +54,7 @@ section {
   width: 50%;
   border-radius: 1rem;
   margin-bottom: 2rem;
+  box-shadow: 0.3rem 0.3rem 1rem #474747;
 }
 
 #about h1 {
@@ -73,6 +75,7 @@ section {
   width: 50%;
   border-radius: 1rem;
   margin-bottom: 2rem;
+  box-shadow: 0.3rem 0.3rem 1rem #474747;
 }
 
 #skills h1 {
@@ -104,6 +107,7 @@ section {
   width: 50%;
   border-radius: 1rem;
   margin-bottom: 2rem;
+  box-shadow: 0.3rem 0.3rem 1rem #474747;
 }
 
 #projects h1 {
@@ -131,7 +135,7 @@ section {
 /* Social Media Section Styles */
 /* Styling for the "Social Media" section */
 #socialmedia {
-  background-color: #503dbb;
+  /* background-color: #503dbb; */
   color: #fff;
   text-align: center;
   margin: auto;
@@ -171,7 +175,7 @@ footer {
   margin: auto;
   padding: 1.25rem;
   width: 20%;
-  background-color: #503dbb;
+  /* background-color: #503dbb; */
   color: #fff;
   border-radius: 1rem;
 }
