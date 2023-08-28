@@ -174,7 +174,7 @@ footer {
   text-align: center;
   margin: auto;
   padding: 1.25rem;
-  width: 20%;
+  width: 25%;
   /* background-color: #503dbb; */
   color: #fff;
   border-radius: 1rem;
@@ -197,6 +197,7 @@ footer {
   height: 7rem;
   width: 7rem;
   cursor: pointer;
+  box-shadow: 0.2rem 0.2rem 1rem #474747;
 }
 
 /* Contact box */
@@ -205,7 +206,7 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 30%;
+  width: 50%;
 
   background-color: white;
   padding: 5rem;
@@ -225,6 +226,41 @@ footer {
   border: none;
   background: none;
 }
+
+/* Flexbox layout for contact content */
+.contact-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the text side */
+.contact-text {
+  flex: 1;
+  padding: 1rem;
+}
+
+.contact-text h1 {
+  padding-bottom: 1rem;
+}
+
+/* Style for the map side */
+.contact-map {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive adjustments */
+/* @media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+  .contact-map {
+    margin-top: 1rem;
+  }
+} */
 
 /* Blur overlay */
 .overlay {
