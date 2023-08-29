@@ -188,6 +188,7 @@ footer {
 .show-contact {
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
+  font-size: 15px; /* Increase font size */
   padding: 0.75rem 1.5rem;
   /* border: none; */
   border-color: #503dbb;
@@ -284,3 +285,26 @@ a {
 /* a:hover {
   text-decoration: underline;
 } */
+
+#goTopBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 1rem; /* Place the button at the bottom of the page */
+  right: 1rem; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: rgb(0, 0, 0); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 1rem; /* Some padding */
+  border-radius: 1rem; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  box-shadow: 0.2rem 0.2rem 1rem #474747;
+  border-color: #503dbb;
+}
+
+#goTopBtn:hover {
+  background-color: #e7e7e7; /* Add a dark-grey background on hover */
+}
